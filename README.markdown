@@ -30,3 +30,22 @@ Within 2 min
 - Mainly using cssSelector and absolut XPath locators(Need more search on improvements)
 - The tests need to be updated once existing bugs fixed
 - Ignore bugs to ensure test scripts can work and run successfully for now
+
+## SF
+Haven't applied sf plugin yet
+
+## Project Structure
+```
+my-project
+├── src/test/java
+│ ├── com.liferay.forms.action
+│ ├── com.liferay.forms.page
+│ ├── com.liferay.forms.tests
+| | └──────────────────AcceptanceTest.java
+│ ├── com.liferay.forms.ui
+│ ├── com.liferay.forms.util│
+├── src/test/resources
+│ ├── LabelsInFirstPage.csv
+│ ├── LabelsInSuccessPage.csv
+└── build.gradle
+```

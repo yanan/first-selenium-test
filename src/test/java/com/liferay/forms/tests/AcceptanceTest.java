@@ -126,7 +126,7 @@ public class AcceptanceTest extends LiferayFormsBase{
 
 	@Test
 	public void submitWithSwitchingLanguage() {
-		//switchLanguage and submit a form
+		//switch Language and submit a form
 		firstPageAction.moveToLanguageBtn();
 
 		firstPageAction.switchLanguage();
